@@ -16,7 +16,8 @@ public class Solution {
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         scanner.close();
-
+        
+        // Solution
         for(int i = 1; i < 11; i++) {
             result = N * i;
             System.out.println(N + " x " + i + " = " + result);
