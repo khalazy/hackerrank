@@ -15,7 +15,8 @@ public class Solution {
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         scanner.close();
-
+        
+        // Solution
         if (N % 2 != 0) {
             System.out.println("Weird");
         } else if ((N % 2 == 0) && (N >= 2) && (N <= 5)) {
